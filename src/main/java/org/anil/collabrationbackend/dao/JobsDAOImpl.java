@@ -49,8 +49,6 @@ public class JobsDAOImpl implements JobsDAO{
 		Session session=sessionFactory.getCurrentSession();
 		@SuppressWarnings("unchecked")
 		List<Jobs> list=session.createCriteria(Jobs.class).list();
-		
-		
 		return list;
 	}
 

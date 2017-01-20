@@ -6,6 +6,7 @@
       stomp: null
     }, messageIds = [];
     
+    
     service.RECONNECT_TIMEOUT = 30000;
     service.SOCKET_URL = "/spring-ng-chat/chat";
     service.CHAT_TOPIC = "/topic/message";

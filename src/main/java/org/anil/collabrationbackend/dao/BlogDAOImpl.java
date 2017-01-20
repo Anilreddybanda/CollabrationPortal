@@ -38,8 +38,7 @@ public class BlogDAOImpl implements BlogDAO {
 		session.delete(blog);
 	}
 
-	
-	
+
 	
 	public List<Blog> listBlog() {
 		Session session=sessionFactory.getCurrentSession();

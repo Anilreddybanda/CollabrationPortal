@@ -1,6 +1,5 @@
 package org.anil.collabrationbackend.model;
 
-
 import java.util.Date;
 
 public class OutputMessage extends Message {

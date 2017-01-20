@@ -16,6 +16,7 @@ public class User {
 	private String city;
 	private String password;
 	private long mobileno;
+	
 	public long getId() {
 		return id;
 	}

@@ -24,6 +24,7 @@ public class Jobs {
 	private String addressOfTheCompany;
 	private String urlOfTheCompany;
 	
+	
 	public int getJobId() {
 		return jobId;
 	}

@@ -10,5 +10,5 @@ public interface BlogDAO {
 	public void deleteBlog(int blogid);
 	public Blog getBlogById(String blogid);
 	public List<Blog> listBlog();
-
+	
 }

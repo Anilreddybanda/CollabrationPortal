@@ -21,6 +21,7 @@ public class JobRegistration {
 	private String registrationNumber;
 	private String studentId;
 	private String CertificateNumber;
+	
 	public int getDummy() {
 		return dummy;
 	}

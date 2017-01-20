@@ -12,4 +12,5 @@ public interface ForumDAO {
 	public void deleteForum(int fId);
 	public Forum getForumById(int fId);
 	public List<Forum> listForum();
+	
 }

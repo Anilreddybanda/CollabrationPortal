@@ -37,8 +37,6 @@ public class UserDAOImpl implements UserDAO {
 
 	public User getUserByUserName(String username) {
 		return null;
-		
-		
 	}
 
 	public List<User> listUsers() {

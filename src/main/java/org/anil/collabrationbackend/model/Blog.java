@@ -23,6 +23,7 @@ public class Blog {
 	  private Date time;
 	  private String postedBY;
 	  private String category;
+	  
 	public int getbId() {
 		return bId;
 	}

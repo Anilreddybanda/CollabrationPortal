@@ -8,7 +8,7 @@ public class Message {
 
   private String message;
   @Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int id;
   
   public Message() {

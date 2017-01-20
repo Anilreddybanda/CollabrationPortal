@@ -62,6 +62,7 @@ public class JobsRestController {
 		 jobUpdate.setSkillRequired(job.getSkillRequired());
 		 jobUpdate.setUrlOfTheCompany(job.getUrlOfTheCompany());
 		 jobsdao.addJobs(jobUpdate);
+		 
 			return new ResponseEntity<Jobs>(HttpStatus.OK);
 		 
 	 }

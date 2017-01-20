@@ -8,7 +8,6 @@
       ChatService.send($scope.message);
       $scope.message = "";
     };
-    
     ChatService.receive().then(null, null, function(message) {
       $scope.messages.push(message);
     });

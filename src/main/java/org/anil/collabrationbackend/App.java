@@ -24,7 +24,7 @@ public class App
 	BlogDAO blogDAO=(BlogDAO) context.getBean("blogd");
 	JobsDAO jobsDAO=(JobsDAO) context.getBean("jobs");
 	ForumDAO forumDAO=(ForumDAO) context.getBean("forum");
-	
+  
 //	Blog blog = new Blog();
 //	blog.setbDiscription("This Blog is a sample blog");
 //	blog.setbName("Anil");

@@ -31,7 +31,7 @@ public class AppcontextConfig {
 		dataSource.setPassword("anil123");
 		
 		return dataSource;
-	}
+}
 	
 	@Autowired
 	@Bean

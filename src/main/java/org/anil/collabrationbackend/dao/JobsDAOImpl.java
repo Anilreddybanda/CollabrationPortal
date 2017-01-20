@@ -43,7 +43,6 @@ public class JobsDAOImpl implements JobsDAO{
 		Jobs job =(Jobs)session.get(Jobs.class, new Integer(jId));
 		return job;
 		}
-
 	
 	public List<Jobs> listJobs() {
 		Session session=sessionFactory.getCurrentSession();

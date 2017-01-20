@@ -45,7 +45,6 @@ public class ForumDAOImpl implements ForumDAO{
 		Forum forum =(Forum)session.get(Forum.class, new Integer(fId));
 		 return forum;
 	}
-
 	
 	public List<Forum> listForum() {
 		Session session=sessionFactory.getCurrentSession();

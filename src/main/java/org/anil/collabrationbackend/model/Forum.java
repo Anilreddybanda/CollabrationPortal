@@ -19,6 +19,7 @@ public class Forum {
 	private int fId;
 	private String forumTitle;
 	private String forumDescription;
+	
 	public int getfId() {
 		return fId;
 	}

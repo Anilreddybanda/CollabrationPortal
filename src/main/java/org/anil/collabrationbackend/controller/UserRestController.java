@@ -53,7 +53,6 @@ public class UserRestController {
 			u.setCity(user.getCity());
 			u.setMobileno(user.getMobileno());
 			
-			
 			userDAO.updateUser(u);
 		}
 	

@@ -60,7 +60,7 @@ public class ForumRestController {
 	
 		 forumdao.addForum(forumUpdate);
 			return new ResponseEntity<Jobs>(HttpStatus.OK);
-		 
+		
 	 }
 	 
 	//delete an existing user
